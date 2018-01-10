@@ -34,3 +34,4 @@ app.post("/api/friend", function(req, res) {
 
   res.json(newFriend);
 });
+
