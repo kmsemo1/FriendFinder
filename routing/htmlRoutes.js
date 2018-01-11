@@ -1,3 +1,5 @@
+var path = require("path");
+
 // array to hold friends
 var friend = [];
 
