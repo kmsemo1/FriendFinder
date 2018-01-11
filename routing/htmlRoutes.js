@@ -1,9 +1,21 @@
 var path = require("path");
 
-// array to hold friends
-var friend = [];
 
-// Get all friend
-app.get("/friendfinder", function(req, res) {
-    res.json(friend);
-});
+// routes to html files
+module.exports = function (app) {
+
+    // route to friendfinder.html or home page
+    app.get("/", function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/friendfinder.html'))
+    });
+    
+    // route to survey
+    app.get("/survey", function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/survey.html'))
+    });
+
+    // route to results
+    app.get("/result", function(req, res) {
+        res.sendFile(path.join(__dirname + '/../public/result.html'))
+    });
+}
