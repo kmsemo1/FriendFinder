@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friendfinder heroku express",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmsemo1/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder",
+    "heroku",
+    "express"
+  ],
+  "author": "Kevin S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmsemo1/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/kmsemo1/FriendFinder#readme"
+}
